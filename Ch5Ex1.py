@@ -13,7 +13,11 @@ while x > 0:
         num = float(num)
         number = number + num
         x = x + 1
-count = x - 1
-print("The total is: " + str(number))
-print("The count is: " + str(count))
-print("The average is: " + str(number/count))
+
+if x == 1:
+    print("The total is 0 etc")
+else:
+    count = x - 1
+    print("The total is: " + str(number))
+    print("The count is: " + str(count))
+    print("The average is: " + str(number/count))
